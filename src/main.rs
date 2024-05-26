@@ -1,7 +1,7 @@
 use actix_web::{web, App, HttpResponse, HttpServer, Responder};
-use near_accounts::accounts::get_account_balance;
-use near_primitives::types::AccountId;
-use near_providers::JsonRpcProvider;
+use near_api_lib::accounts::get_account_balance;
+use near_api_lib::primitives::types::AccountId;
+use near_api_lib::JsonRpcProvider;
 use std::sync::Arc;
 use std::time::Instant;
 

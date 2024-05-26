@@ -9,8 +9,7 @@ edition = "2021"
 actix-web = "4.0"
 tokio = { version = "1", features = ["full"] }
 env_logger = "0.9"
-near-accounts = "0.1.0-alpha"  # Ensure you use the correct version you need
 near-primitives = "0.20.1"
-near-providers = "0.1.0-alpha"
+near-api-lib = "0.1.0-alpha"
 serde = "1.0"
 serde_json = "1.0"
